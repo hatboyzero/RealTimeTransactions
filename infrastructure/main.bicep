@@ -67,8 +67,8 @@ module openAi 'openai.bicep' = {
     deployments: [
       {
         name: 'completions'
-        model: 'text-embedding-ada-002'
-        version: '2'
+        model: 'gpt-35-turbo'
+        version: '0301'
         sku: {
           name: 'Standard'
           capacity: 60
