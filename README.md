@@ -1,8 +1,8 @@
-# Cosmos DB NoSQL API - Payments
+# Azure Cosmos DB NoSQL API & Azure OpenAI Service - Payment & Transaction Processing
 
 ## Introduction
 
-This repository provides a code sample in .NET on how you might use a combination of Azure Functions, Cosmos DB, OpenAI and EventHub to implement a payment tracking process.
+This repository provides a code sample in .NET on how you might use a combination of Azure Functions, Azure Cosmos DB, Azure OpenAI Service and Azure Event Hubs to implement a payment tracking process.
 
 ## Scenario
 
@@ -19,7 +19,7 @@ An AI powered co-pilot enables agents to analyze transactions using natural lang
 The solution architecture is represented by this diagram:
 
 <p align="center">
-    <img src="img/architecture.png" width="100%">
+    <img src="img/architecture.png" width="100%" alt="Solution architecture diagram shows components deployed to Azure.">
 </p>
 
 ## Deployment
